@@ -14,3 +14,12 @@ $ nvidia-settings -q GpuPowerMizerMode
     Valid values for 'GPUPowerMizerMode' are: 0, 1 and 2.
     'GPUPowerMizerMode' can use the following target types: GPU.
 ```
+
+
+# High CPU usage by XORG: Graphics Switching (Pop!_OS)
+
+  NVIDIA graphics mode uses the discrete NVIDIA GPU only. This provides a better graphical experience, but reduces battery life. 
+  
+```
+sudo system76-power graphics nvidia
+```
